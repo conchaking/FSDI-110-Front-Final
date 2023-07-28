@@ -1,0 +1,68 @@
+.admin {
+    padding-top:2rem;
+}
+
+.admin .parent {
+    display: flex;
+    min-height: 700px;
+}
+
+.admin .sec-prods {
+    flex: 3;
+    height: 100%;
+    padding: 15px 90px;
+}
+
+.admin .sec-coupons {
+    flex: 2;
+    height: 100%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.admin .form {
+    text-align: left;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: white;
+}
+
+.admin .admin-prod {
+    display: flex;
+    margin: 5px 0;
+    padding: 3px 7px;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+}
+
+.admin .admin-prod img {
+    height: 60px;
+    max-width: 80px;
+}
+
+.admin .admin-prod .title {
+    flex: 3;
+}
+
+.admin .admin-prod .price {
+    flex: 1;
+}
+
+.admin .coupon {
+    display: flex;
+    margin: 7px 0;
+    padding: 3px 7px;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    background-color: white;
+    align-items: center;
+}
+
+.admin .coupon h6 {
+    flex: 3;
+}
+
+.admin .coupon button {
+    width: 70px;
+}
